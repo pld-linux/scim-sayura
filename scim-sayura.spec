@@ -1,7 +1,7 @@
 Summary:	Sri Lankan input method for SCIM
 Name:		scim-sayura
 Version:	0.3.3
-Release:	0.1
+Release:	1
 License:	GPL v2
 Group:		Libraries
 Source0:	http://www.sayura.net/im/%{name}-%{version}.tar.gz

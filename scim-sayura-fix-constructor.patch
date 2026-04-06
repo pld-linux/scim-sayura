@@ -1,11 +1,11 @@
---- scim-sayura-0.3.0.orig/src/scim_sinhala_imengine.cpp	2008-05-10 00:15:11.000000000 +0530
-+++ scim-sayura-0.3.0/src/scim_sinhala_imengine.cpp	2010-09-07 13:25:31.000000000 +0530
-@@ -234,7 +234,7 @@
- 
- void SinhalaInstance::backspace ()
+--- scim-sayura-0.3.3/src/scim_sinhala_imengine.cpp.orig	2008-11-23 20:08:38.000000000 +0100
++++ scim-sayura-0.3.3/src/scim_sinhala_imengine.cpp	2026-04-06 12:00:00.000000000 +0200
+@@ -233,7 +233,7 @@
+
+ void SinhalaInstance::backspace()
  {
 -	KeyEvent e = scim::KeyEvent::KeyEvent(SCIM_KEY_BackSpace, 0);
 +	KeyEvent e = scim::KeyEvent(SCIM_KEY_BackSpace, 0);
  	forward_key_event(e);
  }
- 
+
